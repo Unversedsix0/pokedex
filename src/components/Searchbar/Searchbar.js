@@ -15,7 +15,7 @@ export const Search = () => {
   };
 
   const onIconPressHandler = () => {
-    onSearchHandler(search);
+    onSearchHandler(search.toLowerCase());
   };
 
   return (
