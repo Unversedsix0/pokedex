@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Image, Text, View } from "react-native";
 import { Searchbar } from "react-native-paper";
 import { searchPokemon } from "../../services/api";
+import { styles } from "./styles";
 
 export const Search = () => {
   const [search, setSearch] = useState("");
@@ -21,6 +22,7 @@ export const Search = () => {
   return (
     <View>
       <Searchbar
+      style={styles.searchbarStyle}
         placeholder="Search"
         onIconPress={onIconPressHandler}
         onChangeText={onChangeSearch}
