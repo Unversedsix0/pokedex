@@ -1,2 +1,2 @@
-export * from "./Home/Home"
-export * from "./Favorites/Favorites"
+export * from "./Home/Home.js"
+export * from "./Favorites/Favorites.js"
