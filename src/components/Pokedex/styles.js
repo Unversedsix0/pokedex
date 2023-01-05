@@ -11,6 +11,6 @@ export const styles = StyleSheet.create({
     padding:12
   },
   pokedexGrid:{
-    d
+    
   }
 });
